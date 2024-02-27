@@ -1,9 +1,10 @@
 import './App.css';
+import { LandingPageHeader } from './components/LandingPageHeader';
 
 export function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <LandingPageHeader />
     </div>
   );
 }

@@ -36,19 +36,20 @@
         position: absolute;
         left: 0;
         right: 0;
-        top: 80px;
+        top: 67px;
         padding: 0 var(--app-padding);
         background-color: var(--app-header-background);
     }
     .menu ul {
-       display: none; 
+       display: none;
+       padding: 0;
     }
     .menu ul.mobile {
         display: block;
     }
    .menu ul li {
     padding: 10px 0;
-   } 
+   }
    .menu li.hidden-mobile {
     display: none;
    }

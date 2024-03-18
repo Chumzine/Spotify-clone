@@ -31,7 +31,6 @@ export const LandingPageHeader = () => {
         <div className='menu'>
             <HeaderNavigation className={showMenu ? 'mobile' : ''} />
         </div>
-        
     </header>)
 }
     

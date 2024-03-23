@@ -14,6 +14,6 @@ export const CustomButton = (props) => {
         {props.children}
     </button>
         : 
-    <a href="#" className={classes}>{props.children}</a>
+    <a href="#classes" className={classes}>{props.children}</a>
     )
 }

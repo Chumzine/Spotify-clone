@@ -23,7 +23,7 @@ export const PlanCard = (props) => {
                 <CustomButton className={style.button} onClick={()=>{}}>View plans</CustomButton>
             </div>
             <div className={style.footer}>
-                <a href="#">Terms and conditions apply.</a>
+                <a href="#terms">Terms and conditions apply.</a>
                  1 month free not available for users who have already tried Premium.</div>
         </div>
     )

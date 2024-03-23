@@ -1,4 +1,5 @@
 .btn, .btn-outline, .btn-secondary {
+  background-color: #000;
   color: #fff;
   padding: 16px 35px;
   border: none;
@@ -16,6 +17,16 @@
   background-color: transparent;
   border: 1px solid #fff;
 }
+.btn-inverted {
+  background-color: #fff;
+  color: #000;
+}
+.btn-outline.btn-inverted {
+  background-color: inherit;
+  color: #000;
+  border: 2px solid #000;
+  font-weight: 500;
+}
 @media (max-width: 500px) {
   .btn-outline, .btn {
     padding: 10px 20px;
@@ -24,41 +35,3 @@
 }
 
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
